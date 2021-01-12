@@ -7,7 +7,7 @@ import com.exchangerate.product.dashboard.model.ExchangeRate;
 import com.exchangerate.product.dashboard.repository.ExchangeRateRepository;
 
 @Service
-public class ExchangeRateServiceImpl implements ExchangeRateService {
+public class ExchangeRateServiceImp implements ExchangeRateService {
 
 	@Autowired
 	ExchangeRateRepository exchangeRateRepository;
